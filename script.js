@@ -108,7 +108,7 @@ function playRound(playerSelection, computerSelection) {
         }, 500);
 
         console.log(
-          `Computer Won The Game with ${computerTally} points! Sadge...`
+          `Computer Won The Game with ${computerTally} points! Sadge..`
         );
       } else if (playerTally === computerTally) {
         //winnerText.textContent = `It's A Tie, Try Again Sucka`;
@@ -173,7 +173,7 @@ function game() {
 
     option.addEventListener("click", () => {
       computerImage.src =
-        "../assets/toppng.com-and-blank-effect-transparent-600x458.png";
+        "./assets/toppng.com-and-blank-effect-transparent-600x458.png";
       setTimeout(() => {
         roundWinner.visibility = "hidden";
       }, 1000);
@@ -192,13 +192,13 @@ function game() {
       setTimeout(() => {
         switch (randomSelection) {
           case 0:
-            computerImage.src = "../assets/Rock.png";
+            computerImage.src = "./assets/Rock.png";
             break;
           case 1:
-            computerImage.src = "../assets/Paper.jpg";
+            computerImage.src = "./assets/Paper.jpg";
             break;
           case 2:
-            computerImage.src = "../assets/Scissors.jpg";
+            computerImage.src = "./assets/Scissors.jpg";
             break;
         }
       }, 500);
