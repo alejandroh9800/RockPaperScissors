@@ -1,6 +1,6 @@
 @font-face {
     font-family: Silkscreen;
-    src: url(./assets/font/Silkscreen-Regular.ttf);
+    src: local('./assets/font/Silkscreen-Regular.ttf');
 }
 
 html{
